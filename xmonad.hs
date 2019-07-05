@@ -13,5 +13,6 @@ main = xmonad desktopConfig
 		modMask = mod4Mask,
 		borderWidth = 2,
 		clickJustFocuses = False,
+		startupHook = setWMName "LG3D",
 		focusFollowsMouse = False
 	}
